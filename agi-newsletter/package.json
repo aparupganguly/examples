@@ -1,0 +1,25 @@
+{
+  "name": "agi-newsletter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@hyperbrowser/sdk": "^0.49.1",
+    "@types/node": "^22.15.29",
+    "commander": "^14.0.0",
+    "dotenv": "^16.5.0",
+    "fs": "^0.0.1-security",
+    "openai": "^5.1.0",
+    "resend": "^4.5.1",
+    "ts-node": "^10.9.2",
+    "tsup": "^8.5.0",
+    "typescript": "^5.8.3",
+    "zod": "^3.25.51"
+  }
+}
