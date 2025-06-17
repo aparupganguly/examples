@@ -1,0 +1,28 @@
+{
+  "name": "competitor-analyzer-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx ts-node competitor-analysis.ts",
+    "dev": "npx ts-node competitor-analysis.ts",
+    "build": "npx tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@hyperbrowser/sdk": "^0.51.0",
+    "commander": "^14.0.0",
+    "dotenv": "^16.5.0",
+    "fs": "^0.0.1-security",
+    "openai": "^5.5.1",
+    "tsup": "^8.5.0",
+    "typescript": "^5.8.3",
+    "zod": "^3.25.67"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.3"
+  }
+}
