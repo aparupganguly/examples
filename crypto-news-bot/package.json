@@ -1,0 +1,25 @@
+{
+  "name": "crypto-news-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@hyperbrowser/sdk": "^0.51.0",
+    "axios": "^1.10.0",
+    "commander": "^14.0.0",
+    "dotenv": "^16.5.0",
+    "node-cron": "^4.1.1",
+    "openai": "^5.7.0",
+    "tsup": "^8.5.0",
+    "typescript": "^5.8.3"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.3"
+  }
+}
