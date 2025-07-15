@@ -1,10 +1,10 @@
-# 🛡️ PhonyCart – Intelligent Scam Store Scanner
+# 🛡️ Scam Scanner – Intelligent Scam Store Scanner
 
 > **Powered by [Hyperbrowser.ai](https://hyperbrowser.ai) – Real browsers in the cloud**
 
 **One command. One scan. Instant fraud detection.**
 
-PhonyCart leverages Hyperbrowser's cloud-based browser infrastructure to perform deep analysis of suspicious online stores, detecting fraud patterns that traditional crawlers miss.
+This tool leverages Hyperbrowser's cloud-based browser infrastructure to perform deep analysis of suspicious online stores, detecting fraud patterns that traditional crawlers miss.
 
 ---
 
@@ -179,9 +179,8 @@ pnpm test
 ## 📞 **Support & Community**
 
 - 📚 **[Hyperbrowser Documentation](https://docs.hyperbrowser.ai)**
-- 💬 **[Discord Community](https://discord.gg/hyperbrowser)**
-- 🐛 **[Report Issues](https://github.com/yourname/phonycart/issues)**
-- 📧 **[Contact Support](mailto:support@hyperbrowser.ai)**
+- 💬 **[Discord Community](https://discord.gg/zsYzsgVRjh)**
+- 🐛 **[Report Issues](https://github.com/hyperbrowserai/examples)**
 
 ---
 
@@ -193,12 +192,11 @@ MIT License – Feel free to use in your projects!
 
 <div align="center">
 
-### 🚀 **Ready to Start Scanning?**
 
 **[🔑 Get your free Hyperbrowser API key →](https://hyperbrowser.ai)**
 
 Built with ❤️ and **[Hyperbrowser.ai](https://hyperbrowser.ai)** – The future of web automation
 
-[🌟 Star us on GitHub](https://github.com/yourname/phonycart) • [📖 Documentation](https://docs.hyperbrowser.ai) • [💬 Join Discord](https://discord.gg/hyperbrowser)
+[🌟 Star us on GitHub](https://github.com/hyperbrowserai/) • [📖 Documentation](https://docs.hyperbrowser.ai) 
 
 </div>
