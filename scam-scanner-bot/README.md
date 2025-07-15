@@ -18,7 +18,7 @@ This tool leverages Hyperbrowser's cloud-based browser infrastructure to perform
 | ❌ Limited to static HTML | ✅ **Complete rendering** – captures post-load fraud tactics |
 | ❌ Require local Chrome setup | ✅ **Zero setup** – everything runs in the cloud |
 
-### 🎯 **What PhonyCart Detects**
+### 🎯 **What Scam-Scanner Detects**
 - 🔓 **Insecure HTTP assets** on HTTPS sites
 - ⚠️ **Failed API calls** (4xx/5xx errors)
 - 🏦 **Suspicious payment iframes** from unknown providers
@@ -35,8 +35,8 @@ This tool leverages Hyperbrowser's cloud-based browser infrastructure to perform
 ### 2️⃣ **Install & Setup**
 ```bash
 # Clone the repository
-git clone https://github.com/yourname/phonycart.git
-cd phonycart
+git clone https://github.com/hyperbrowserai/examples
+cd scam-scanner-bot
 
 # Install dependencies
 pnpm install        # or npm install
@@ -87,10 +87,6 @@ node dist/index.js --url https://suspect-store.xyz
 💡 Recommendation: AVOID - Multiple fraud indicators present
 ```
 
-### 🤖 **JSON Output for CI/CD**
-```bash
-phonycart --url https://suspect-store.xyz --json > fraud-report.json
-```
 
 ---
 
@@ -164,7 +160,7 @@ export const yourCheck = {
 ### 🚀 **Development Setup**
 ```bash
 # Fork and clone
-git clone https://github.com/yourname/phonycart.git
+git clone https://github.com/hyperbrowserai/examples
 
 # Install dependencies
 pnpm install
