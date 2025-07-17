@@ -1,0 +1,27 @@
+{
+  "name": "meta-scraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@hyperbrowser/sdk": "^0.53.0",
+    "commander": "^14.0.0",
+    "dotenv": "^17.2.0",
+    "openai": "^5.10.1",
+    "tsup": "^8.5.0",
+    "typescript": "^5.8.3",
+    "yargs": "^18.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.14",
+    "@types/yargs": "^17.0.33",
+    "tsx": "^4.20.3"
+  }
+}
