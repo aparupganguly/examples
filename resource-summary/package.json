@@ -1,0 +1,24 @@
+{
+  "name": "resource-summary",
+  "version": "1.0.0",
+  "description": "A lightweight CLI that analyzes webpage resources using Hyperbrowser's API",
+  "main": "index.ts",
+  "scripts": {
+    "start": "tsx index.ts"
+  },
+  "dependencies": {
+    "@hyperbrowser/sdk": "^0.55.0",
+    "chalk": "^4.1.2",
+    "dotenv": "^16.0.3",
+    "tsx": "^4.7.0",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/yargs": "^17.0.24",
+    "typescript": "^5.0.0"
+  },
+  "keywords": ["cli", "web-scraping", "hyperbrowser", "resource-analysis"],
+  "author": "Aparup Ganguly",
+  "license": "MIT"
+} 
