@@ -1,0 +1,35 @@
+{
+  "name": "site2rag",
+  "version": "1.0.0",
+  "description": "A CLI tool that scrapes webpage content, cleans boilerplate, and outputs token-budgeted chunks ready for RAG or embedding pipelines",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx ts-node index.ts",
+    "build": "tsc"
+  },
+  "keywords": [
+    "scraping",
+    "rag",
+    "embeddings",
+    "content",
+    "cli",
+    "chunks"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@hyperbrowser/sdk": "^0.55.0",
+    "chalk": "^5.4.1",
+    "cheerio": "^1.1.2",
+    "dotenv": "^16.4.5",
+    "ts-node": "^10.9.2",
+    "tsup": "^8.5.0",
+    "typescript": "^5.8.3",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "@types/yargs": "^17.0.33"
+  }
+}
