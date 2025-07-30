@@ -1,0 +1,28 @@
+{
+  "timestamp": "2025-07-30T17:14:06.520Z",
+  "targetUrl": "https://ycombinator.com",
+  "flows": [
+    {
+      "url": "https://ycombinator.com",
+      "method": "GET",
+      "category": "Business",
+      "piiFields": []
+    },
+    {
+      "url": "https://ycombinator.com/api/form",
+      "method": "POST",
+      "category": "PII",
+      "piiFields": [
+        "email",
+        "password",
+        "name"
+      ]
+    },
+    {
+      "url": "https://www.google-analytics.com/collect",
+      "method": "POST",
+      "category": "Analytics",
+      "piiFields": []
+    }
+  ]
+}
