@@ -1,0 +1,30 @@
+{
+  "name": "ragzip",
+  "version": "0.1.0",
+  "description": "A single-file CLI that builds citation-tagged context packs for LLMs using Hyperbrowser",
+  "bin": {
+    "ragzip": "ragzip.ts"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "ts-node ragzip.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@hyperbrowser/sdk": "latest",
+    "yargs": "^17",
+    "cheerio": "^1",
+    "dotenv": "^16",
+    "openai": "^4"
+  },
+  "devDependencies": {
+    "ts-node": "^10",
+    "typescript": "^5",
+    "@types/node": "^20",
+    "@types/yargs": "^17",
+    "@types/cheerio": "^0.22"
+  },
+  "keywords": ["rag", "llm", "scraping", "hyperbrowser", "cli"],
+  "author": "Hyperbrowser",
+  "license": "MIT"
+}
