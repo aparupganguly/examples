@@ -1,0 +1,9 @@
+{
+  "totalUrls": 4,
+  "successfulScrapes": 4,
+  "failedScrapes": 0,
+  "totalTokens": 3938,
+  "deduplicatedBlocks": 74,
+  "finalBlocks": 34,
+  "llmCompressed": true
+}
