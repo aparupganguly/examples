@@ -51,7 +51,7 @@ async function chatWithContent(content: string) {
     messages.push({ role: "user", content: input });
 
     const response = await openai.chat.completions.create({
-      model: "gpt-4o",
+      model: "gpt-5",
       messages,
     });
 
