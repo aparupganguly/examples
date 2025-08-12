@@ -1,0 +1,36 @@
+{
+  "name": "research-bot",
+  "version": "1.0.0",
+  "description": "Founders Research Agent - Built with Hyperbrowser",
+  "main": "agent.js",
+  "type": "module",
+  "scripts": {
+    "start": "tsx agent.ts",
+    "start:continuous": "tsx agent.ts --continuous",
+    "start:once": "tsx agent.ts --once",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hyperbrowser",
+    "research",
+    "monitoring",
+    "founders"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hyperbrowser/sdk": "^0.57.0",
+    "dotenv": "^16.4.5",
+    "node-cron": "^3.0.3",
+    "node-fetch": "^3.3.2",
+    "openai": "^4.68.4",
+    "yaml": "^2.4.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.20",
+    "@types/node-cron": "^3.0.11",
+    "tsx": "^4.7.1",
+    "typescript": "^5.9.2"
+  }
+}
