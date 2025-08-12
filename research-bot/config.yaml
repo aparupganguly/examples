@@ -1,0 +1,22 @@
+---
+cadence_hours: 3
+notify:
+  slack_webhook: "${SLACK_WEBHOOK_URL}"
+urls:
+  - id: "hacker_news"
+    group: "tech"
+    url: "https://news.ycombinator.com"
+  - id: "producthunt"
+    group: "products"
+    url: "https://www.producthunt.com"
+  - id: "techcrunch_ai"
+    group: "news"
+    url: "https://techcrunch.com/category/artificial-intelligence/"
+rules:
+  taggers:
+    - pattern: "(price|pricing|usd|₹|per month|annual)"
+      tag: "pricing"
+    - pattern: "(hiring|careers|role|job)"
+      tag: "hiring"
+    - pattern: "(release|launched|beta|v\\d|roadmap)"
+      tag: "product"
