@@ -116,9 +116,9 @@ Reports saved to `.data/reports/` as Markdown with:
 Uses **Hyperbrowser's official API methods**:
 
 ```typescript
-// Core web scraping
-const result = await hb.agents.browserUse.startAndWait({
-  task: `Navigate to ${url} and extract main content quickly`
+// Fast web scraping with Hyperbrowser
+const result = await hb.scrape.startAndWait({
+  url: url
 });
 
 // Real data analysis with OpenAI
@@ -135,7 +135,7 @@ const response = await openai.chat.completions.create({
 
 Single-file TypeScript implementation (~260 LOC):
 
-- **Hyperbrowser SDK**: Official web scraping via `agents.browserUse`
+- **Hyperbrowser SDK**: Fast web scraping via `scrape.startAndWait()`
 - **OpenAI Integration**: GPT-4o-mini for intelligent summarization
 - **Concurrent Processing**: Batch processing with 4-URL concurrency
 - **Timeout Protection**: 60-second per-URL timeout with graceful failures

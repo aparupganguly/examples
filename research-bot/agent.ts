@@ -53,10 +53,10 @@ function writeSnap(id: string, text: string): void {
 }
 
 async function browse(url: string): Promise<string> {
-  const result = await hb.agents.browserUse.startAndWait({
-    task: `Navigate to ${url} and quickly extract just the main headlines, article titles, and key text content. Skip loading images, ads, and heavy scripts. Focus on speed - get the essential text and exit immediately.`,
+  const result = await hb.scrape.startAndWait({
+    url: url,
   });
-  return result.data?.finalResult || '';
+  return result.data?.text || '';
 }
 
 async function analyzeContent(id: string, url: string, prevText: string | null, currText: string): Promise<string> {
@@ -93,10 +93,17 @@ function diffChanged(prev: Snapshot | null, curr: string): boolean {
 
 async function notifySlack(webhook: string, content: string): Promise<void> {
   try {
+    // Slack supports up to 40,000 characters, but we'll use 35,000 to be safe
+    let message = content;
+    if (content.length > 35000) {
+      // Smart truncation: keep the beginning and add truncation notice
+      message = content.slice(0, 34900) + '\n\n...(message truncated due to length)';
+    }
+    
     await fetch(webhook, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ text: content.slice(0, 2500) })
+      body: JSON.stringify({ text: message })
     });
   } catch (error) {
     console.warn('Slack notification failed:', error);
