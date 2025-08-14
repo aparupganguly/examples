@@ -1,0 +1,3 @@
+https://docs.hyperbrowser.ai
+https://example.com
+https://httpbin.org/html

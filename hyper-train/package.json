@@ -1,0 +1,30 @@
+{
+  "name": "hyper-train",
+  "version": "1.0.0",
+  "description": "CLI tool for scraping URLs and creating LLM training datasets using Hyperbrowser",
+  "main": "hypertrain.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node hypertrain.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hyperbrowser",
+    "llm",
+    "dataset",
+    "scraping",
+    "training"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@hyperbrowser/sdk": "^0.57.0",
+    "openai": "^4.0.0",
+    "typescript": "^5.9.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.0"
+  }
+}
