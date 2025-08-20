@@ -10,6 +10,16 @@ build/
 *.tsbuildinfo
 *.js.map
 
+# TypeScript compiled files (keep source .ts files only)
+*.js
+*.d.ts
+!src/**/*.js
+!scripts/**/*.js
+
+# But allow specific config files if they're meant to be committed
+!*.config.js
+!*rc.js
+
 # Environment variables
 .env
 .env.local
