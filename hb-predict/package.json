@@ -1,0 +1,28 @@
+{
+  "name": "hb-predict",
+  "version": "1.0.0",
+  "description": "Hyperbrowser-powered tech signal detection and prediction CLI",
+  "main": "hb-predict.ts",
+  "scripts": {
+    "start": "ts-node hb-predict.ts",
+    "dev": "ts-node hb-predict.ts --mode ai --window 24h --top 10",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hyperbrowser",
+    "predictions",
+    "tech-signals",
+    "cli"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@hyperbrowser/sdk": "^0.57.0",
+    "@types/node": "^20.0.0",
+    "dotenv": "^17.2.1",
+    "openai": "^5.13.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.9.2"
+  }
+}
