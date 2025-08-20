@@ -1,0 +1,28 @@
+bots:
+  - name: "AI Daily"
+    mode: "ai"
+    sources:
+      hn: true
+      reddit:
+        subs: ["MachineLearning", "LocalLLaMA", "Artificial", "startups"]
+      producthunt: true
+      blogs:
+        - "https://openai.com/blog"
+        - "https://www.anthropic.com/news"
+        - "https://deepmind.google/discover/blog"
+    include: ["open source", "launch", "models", "inference", "pricing", "vector", "RAG"]
+    exclude: ["hiring", "who is hiring", "promo"]
+    
+  - name: "DevTools Watch"
+    mode: "devtools"
+    sources:
+      hn: true
+      reddit: 
+        subs: ["programming", "dataengineering", "devops"]
+      producthunt: true
+      blogs:
+        - "https://vercel.com/changelog"
+        - "https://github.blog/changelog/"
+        - "https://aws.amazon.com/about-aws/whats-new/"
+    include: ["framework", "library", "cli", "api", "tool"]
+    exclude: ["hiring", "job", "career"]
