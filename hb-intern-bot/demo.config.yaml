@@ -1,0 +1,8 @@
+bots:
+  - name: "AI Demo"
+    mode: "ai"
+    sources:
+      hn: true
+      reddit: ["programming"]
+    include: []  # Accept everything
+    exclude: []  # Accept everything
