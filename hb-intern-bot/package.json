@@ -1,0 +1,38 @@
+{
+  "name": "hb-intern",
+  "version": "1.0.0",
+  "description": "Research Intern Bots - AI-powered content discovery and summarization CLI",
+  "main": "dist/index.js",
+  "bin": {
+    "hb-intern": "bin/hb-intern"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node dist/cli.js",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [
+    "hyperbrowser",
+    "ai",
+    "research",
+    "cli",
+    "scraping",
+    "summarization"
+  ],
+  "author": "",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "@hyperbrowser/sdk": "^0.57.0",
+    "openai": "^4.0.0",
+    "pdf-lib": "^1.17.0",
+    "typescript": "^5.9.2",
+    "yaml": "^2.3.0",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/node-fetch": "^2.6.0"
+  }
+}
