@@ -43,4 +43,4 @@ npx tsx dark-pattern-finder.ts scan https://site1.com https://site2.com
 
 Full API documentation: [docs.hyperbrowser.ai](https://docs.hyperbrowser.ai)
 
-Follow [@hyperbrowser](https://twitter.com/hyperbrowser) for updates.
+Follow [@hyperbrowser](https://x.com/hyperbrowser) for updates.
